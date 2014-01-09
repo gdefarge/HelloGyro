@@ -21,6 +21,7 @@
 		39C7BC83187D89C5008DA34E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C7BC65187D89C5008DA34E /* UIKit.framework */; };
 		39C7BC8B187D89C5008DA34E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39C7BC89187D89C5008DA34E /* InfoPlist.strings */; };
 		39C7BC8D187D89C5008DA34E /* HelloGyroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C7BC8C187D89C5008DA34E /* HelloGyroTests.m */; };
+		39C7BC97187D9482008DA34E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C7BC96187D9482008DA34E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		39C7BC88187D89C5008DA34E /* HelloGyroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloGyroTests-Info.plist"; sourceTree = "<group>"; };
 		39C7BC8A187D89C5008DA34E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39C7BC8C187D89C5008DA34E /* HelloGyroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGyroTests.m; sourceTree = "<group>"; };
+		39C7BC96187D9482008DA34E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C7BC97187D9482008DA34E /* CoreMotion.framework in Frameworks */,
 				39C7BC64187D89C5008DA34E /* CoreGraphics.framework in Frameworks */,
 				39C7BC66187D89C5008DA34E /* UIKit.framework in Frameworks */,
 				39C7BC62187D89C5008DA34E /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		39C7BC60187D89C5008DA34E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39C7BC96187D9482008DA34E /* CoreMotion.framework */,
 				39C7BC61187D89C5008DA34E /* Foundation.framework */,
 				39C7BC63187D89C5008DA34E /* CoreGraphics.framework */,
 				39C7BC65187D89C5008DA34E /* UIKit.framework */,
